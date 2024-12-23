@@ -1,0 +1,13 @@
+A Program to implement custom runner by using ApplicationRunner interface:
+Programs:
+* SpringBootRunnerApplication2Application.java
+* CustomApplicationRunner.java
+Notes:
+* In Spring Boot application custom runners can be implemented by using CommandLineRunner, ApplicationRunner interfaces
+* In this application custom runner is implemented by using ApplicationRunner interface.
+* The ApplicationRunner interface extends the Runner interface, the Runner interface is a Marker interface. 
+* The ApplicationRunner interface is a Functional Interface, and its run(ApplicationArguments args) is a functional method.
+* We can create multiple custom runners in same application context, and we can ordered by using Ordered interface or @Order annotation.
+Output:
+From run method in CustomApplicationRunner class.
+From main method in SpringBootRunnerApplication2Application class.
